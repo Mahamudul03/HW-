@@ -7,6 +7,6 @@ if number % 2 == 0:
 else:
     print(f"{number} is odd.")
 
-# Calculate the sum of all even numbers
+# Calculate the sum
 sum_even = sum(i for i in range(1, number + 1) if i % 2 == 0)
 print("Sum of all even numbers:", sum_even)

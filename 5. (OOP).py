@@ -7,6 +7,6 @@ class Rectangle:
     def area(self):
         return self.length * self.width
 
-# Create an object of Rectangle
+# Object of Rectangle
 rectangle = Rectangle(5, 3)
 print("Area of the rectangle:", rectangle.area())
